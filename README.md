@@ -84,3 +84,28 @@ Esses mecanismos geram o **Efeito Mateus Institucional (EMI)**: *“A quem tem, 
 
 ## Estrutura do Repositório
 
+```
+├── INCTS_SIMU_V6.nlogo
+├── Base de dados/
+│   ├── CTT_INCT_VOSviewer_template.xlsx
+│   ├── Grupos de Pesquisa - Informações por Pesquisador do Edital.xlsx
+│   └── Orçamento das FAPs de todos os anos (2008, 2014, 2022, 2024).xlsx
+└── Chamadas e Resultados INCTs/
+   ├── Chamada_2008.pdf
+   ├── Chamada_2014.pdf
+   ├── Chamada_2022.pdf
+   └── ResultadoFinalAprovados.pdf
+```
+
+### Descrição
+
+- **INCTS_SIMU_V6.nlogo**: Arquivo principal do modelo computacional desenvolvido em NetLogo. Contém toda a lógica, interface e parâmetros do simulador EMI.
+- **Base de dados/**: Pasta com arquivos de dados empíricos utilizados no desenvolvimento do artigo:
+   - **CTT_INCT_VOSviewer_template.xlsx**: Template utilizado para análise de redes de colaboração científica via VOSviewer, presentes nos trabalhos que serviram de base à escrita do artigo.
+   - **Grupos de Pesquisa - Informações por Pesquisador do Edital.xlsx**: Dados detalhados sobre pesquisadores participantes das chamadas dos INCTs e os grupos de pesquisa coordenados por estes e dos quais eram apenas colaboradores.
+   - **Orçamento das FAPs de todos os anos (2008, 2014, 2022, 2024).xlsx**: Planilha com os valores de orçamento das FAPs (Fundações de Amparo à Pesquisa) em diferentes anos (principalmente nos que correspondem às datas dos editais), usada para parametrizar cenários de financiamento.
+- **Chamadas e Resultados INCTs/**: Pasta com documentos oficiais das chamadas públicas e resultados dos editais dos INCTs:
+   - **Chamada_2008.pdf**: Edital da chamada de 2008 para seleção dos INCTs.
+   - **Chamada_2014.pdf**: Edital da chamada de 2014 para seleção dos INCTs.
+   - **Chamada_2022.pdf**: Edital da chamada de 2022 para seleção dos INCTs.
+   - **ResultadoFinalAprovados.pdf**: Documento com o resultado final dos projetos aprovados nas chamadas dos INCTs. Serviu de base para seleção dos pesquisadores sintetizados na planilha **Grupos de Pesquisa - Informações por Pesquisador do Edital.xlsx**.
