@@ -126,10 +126,10 @@ Chamadas e Resultados INCTs/
 
 - **Base de dados/**: Pasta com arquivos de dados empíricos utilizados no desenvolvimento do artigo:
    - **Grupos de Pesquisa - Informações por Pesquisador do Edital.xlsx**: Informações por Pesquisador presente na relação de resultado do Edital: Dados detalhados sobre pesquisadores participantes das chamadas dos INCTs e os grupos de pesquisa coordenados por estes e dos quais eram apenas colaboradores.
-   - **Orçamento das FAPs de todos os anos (2008, 2014, 2022, 2024).xlsx**: OPlanilha com os valores de orçamento das FAPs (Fundações de Amparo à Pesquisa) em diferentes anos (principalmente nos que correspondem às datas dos editais), usada para parametrizar cenários de financiamento.
+   - **Orçamento das FAPs de todos os anos (2008, 2014, 2022, 2024).xlsx**: Planilha com os valores de orçamento das FAPs (Fundações de Amparo à Pesquisa) em diferentes anos (principalmente nos que correspondem às datas dos editais), usada para parametrizar cenários de financiamento.
    - **Artigos/**: Conjunto de arquivos de apoio à análise bibliométrica e empírica do artigo:
       - **Analise_Empirica_Top20.xlsx**: Análise dos 20 artigos mais citados.
-      - **Chave_1_WOS.xls** a **Chave_8_WOS.xls**: Planilhas com dados extraídos da Web of Science para diferentes estratégias de busca.
+      - **Chave_1_WOS.xls** a **Chave_8_WOS.xls**: Planilhas com dados extraídos do Web of Science para diferentes estratégias de busca.
       - **Chaves_Consolidadas_SCO.xlsx** / **Chaves_Consolidadas_WOS.xlsx**: Consolidação das buscas em SCOPUS e Web of Science.
       - **CTT_INCT_VOSviewer_template.xlsx**: Template utilizado para análise de redes de colaboração científica via VOSviewer, presentes nos trabalhos que serviram de base à escrita do artigo.
       - **Quadro_Analise_Interna_Artigos.xlsx**: Quadro comparativo interno dos artigos analisados.
@@ -139,7 +139,7 @@ Chamadas e Resultados INCTs/
       - **WOS_SCO_Consolidado.xlsx**: Consolidação geral dos dados de SCOPUS e Web of Science.
 
 - **Chamadas e Resultados INCTs/**: Pasta com documentos oficiais das chamadas públicas e resultados dos editais dos INCTs:
-   - **Chamada_2008.pdf**: Edital da chamada de 2008 para seleção dos INCTs.
-   - **Chamada_2014.pdf**: Edital da chamada de 2014 para seleção dos INCTs.
-   - **Chamada_2022.pdf**: Edital da chamada de 2022 para seleção dos INCTs.
+   - **Chamada_2008.pdf**: Edital da chamada de 2008.
+   - **Chamada_2014.pdf**: Edital da chamada de 2014.
+   - **Chamada_2022.pdf**: Edital da chamada de 2022.
    - **ResultadoFinalAprovados.pdf**: Documento com o resultado final dos projetos aprovados nas chamadas dos INCTs. Serviu de base para seleção dos pesquisadores sintetizados a planilha **Grupos de Pesquisa - Informações por Pesquisador do Edital.xlsx**.
