@@ -122,7 +122,7 @@ Chamadas e Resultados INCTs/
 
 ### Descrição dos Arquivos e Pastas
 
-- **INCTS_SIMU_V6.nlogo**: Modelo computacional desenvolvido em NetLogo para simular o Efeito Mateus Institucional (EMI) no contexto dos INCTs do campo da ciência brasileira. Contém toda a lógica, interface e parâmetros do simulador.
+- **INCTS_SIMU_V6.nlogo**: Modelo computacional desenvolvido em NetLogo para simular o Efeito Mateus Institucional (EMI) no contexto dos INCTs do campo científico brasileiro. Contém toda a lógica, interface e parâmetros do simulador.
 
 - **Base de dados/**: Pasta com arquivos de dados empíricos utilizados no desenvolvimento do artigo:
    - **Grupos de Pesquisa - Informações por Pesquisador do Edital.xlsx**: Informações por Pesquisador presente na relação de resultado do Edital: Dados detalhados sobre pesquisadores participantes das chamadas dos INCTs e os grupos de pesquisa coordenados por estes e dos quais eram apenas colaboradores.
