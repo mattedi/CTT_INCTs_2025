@@ -85,27 +85,61 @@ Esses mecanismos geram o **Efeito Mateus Institucional (EMI)**: *“A quem tem, 
 ## Estrutura do Repositório
 
 ```
-├── INCTS_SIMU_V6.nlogo
-├── Base de dados/
-│   ├── CTT_INCT_VOSviewer_template.xlsx
-│   ├── Grupos de Pesquisa - Informações por Pesquisador do Edital.xlsx
-│   └── Orçamento das FAPs de todos os anos (2008, 2014, 2022, 2024).xlsx
-└── Chamadas e Resultados INCTs/
-   ├── Chamada_2008.pdf
-   ├── Chamada_2014.pdf
-   ├── Chamada_2022.pdf
-   └── ResultadoFinalAprovados.pdf
+INCTS_SIMU_V6.nlogo
+Base de dados/
+   ├─ CTT_INCT_VOSviewer_template.xlsx
+   ├─ Grupos de Pesquisa - Informações por Pesquisador do Edital.xlsx
+   ├─ Orçamento das FAPs de todos os anos (2008, 2014, 2022, 2024).xlsx
+   └─ Artigos/
+         ├─ Analise_Empirica_Top20.xlsx
+         ├─ Chave_1_WOS.xls
+         ├─ Chave_2_WOS.xls
+         ├─ Chave_3_WOS.xls
+         ├─ Chave_4_WOS.xls
+         ├─ Chave_5_WOS.xls
+         ├─ Chave_6_WOS.xls
+         ├─ Chave_7_WOS.xls
+         ├─ Chave_8_WOS.xls
+         ├─ Chaves_Consolidadas_SCO.xlsx
+         ├─ Chaves_Consolidadas_WOS.xlsx
+         ├─ CTT_INCT_VOSviewer_template.xlsx
+         ├─ Quadro_Analise_Interna_Artigos.xlsx
+         ├─ Resumo_Parametrico_Top20.xlsx
+         ├─ SCOPUS_1_csv.csv
+         ├─ SCOPUS_2_csv.csv
+         ├─ SCOPUS_3_csv.csv
+         ├─ SCOPUS_6_csv.csv
+         ├─ SCOPUS_7_csv.csv
+         ├─ SCOPUS_8_csv.csv
+         ├─ Top20_Artigos_Mais_Citados_Atuais_pesquisa.xlsx
+         └─ WOS_SCO_Consolidado.xlsx
+Chamadas e Resultados INCTs/
+   ├─ Chamada_2008.pdf
+   ├─ Chamada_2014.pdf
+   ├─ Chamada_2022.pdf
+   └─ ResultadoFinalAprovados.pdf
 ```
 
-### Descrição
+### Descrição dos Arquivos e Pastas
 
-- **INCTS_SIMU_V6.nlogo**: Arquivo principal do modelo computacional desenvolvido em NetLogo. Contém toda a lógica, interface e parâmetros do simulador EMI.
+- **INCTS_SIMU_V6.nlogo**: Modelo computacional desenvolvido em NetLogo para simular o Efeito Mateus Institucional (EMI) no contexto dos INCTs do campo da ciência brasileira. Contém toda a lógica, interface e parâmetros do simulador.
+
 - **Base de dados/**: Pasta com arquivos de dados empíricos utilizados no desenvolvimento do artigo:
-   - **CTT_INCT_VOSviewer_template.xlsx**: Template utilizado para análise de redes de colaboração científica via VOSviewer, presentes nos trabalhos que serviram de base à escrita do artigo.
-   - **Grupos de Pesquisa - Informações por Pesquisador do Edital.xlsx**: Dados detalhados sobre pesquisadores participantes das chamadas dos INCTs e os grupos de pesquisa coordenados por estes e dos quais eram apenas colaboradores.
-   - **Orçamento das FAPs de todos os anos (2008, 2014, 2022, 2024).xlsx**: Planilha com os valores de orçamento das FAPs (Fundações de Amparo à Pesquisa) em diferentes anos (principalmente nos que correspondem às datas dos editais), usada para parametrizar cenários de financiamento.
+   - **Grupos de Pesquisa - Informações por Pesquisador do Edital.xlsx**: Informações por Pesquisador presente na relação de resultado do Edital: Dados detalhados sobre pesquisadores participantes das chamadas dos INCTs e os grupos de pesquisa coordenados por estes e dos quais eram apenas colaboradores.
+   - **Orçamento das FAPs de todos os anos (2008, 2014, 2022, 2024).xlsx**: OPlanilha com os valores de orçamento das FAPs (Fundações de Amparo à Pesquisa) em diferentes anos (principalmente nos que correspondem às datas dos editais), usada para parametrizar cenários de financiamento.
+   - **Artigos/**: Conjunto de arquivos de apoio à análise bibliométrica e empírica do artigo:
+      - **Analise_Empirica_Top20.xlsx**: Análise dos 20 artigos mais citados.
+      - **Chave_1_WOS.xls** a **Chave_8_WOS.xls**: Planilhas com dados extraídos da Web of Science para diferentes estratégias de busca.
+      - **Chaves_Consolidadas_SCO.xlsx** / **Chaves_Consolidadas_WOS.xlsx**: Consolidação das buscas em SCOPUS e Web of Science.
+      - **CTT_INCT_VOSviewer_template.xlsx**: Template utilizado para análise de redes de colaboração científica via VOSviewer, presentes nos trabalhos que serviram de base à escrita do artigo.
+      - **Quadro_Analise_Interna_Artigos.xlsx**: Quadro comparativo interno dos artigos analisados.
+      - **Resumo_Parametrico_Top20.xlsx**: Resumo paramétrico dos principais artigos.
+      - **SCOPUS_1_csv.csv** a **SCOPUS_8_csv.csv**: Dados extraídos da base SCOPUS para diferentes estratégias de busca.
+      - **Top20_Artigos_Mais_Citados_Atuais_pesquisa.xlsx**: Lista dos artigos mais citados na área.
+      - **WOS_SCO_Consolidado.xlsx**: Consolidação geral dos dados de SCOPUS e Web of Science.
+
 - **Chamadas e Resultados INCTs/**: Pasta com documentos oficiais das chamadas públicas e resultados dos editais dos INCTs:
    - **Chamada_2008.pdf**: Edital da chamada de 2008 para seleção dos INCTs.
    - **Chamada_2014.pdf**: Edital da chamada de 2014 para seleção dos INCTs.
    - **Chamada_2022.pdf**: Edital da chamada de 2022 para seleção dos INCTs.
-   - **ResultadoFinalAprovados.pdf**: Documento com o resultado final dos projetos aprovados nas chamadas dos INCTs. Serviu de base para seleção dos pesquisadores sintetizados na planilha **Grupos de Pesquisa - Informações por Pesquisador do Edital.xlsx**.
+   - **ResultadoFinalAprovados.pdf**: Documento com o resultado final dos projetos aprovados nas chamadas dos INCTs. Serviu de base para seleção dos pesquisadores sintetizados a planilha **Grupos de Pesquisa - Informações por Pesquisador do Edital.xlsx**.
